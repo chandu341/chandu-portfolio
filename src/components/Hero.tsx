@@ -102,7 +102,7 @@ export const Hero: React.FC = () => {
               <div className="relative w-60 h-60 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-2xl overflow-hidden border-2 border-primary/40 bg-surface shadow-2xl shadow-black/30 transition-all duration-300 [transform:translateZ(25px)]">
                 {!imgError ? (
                   <img
-                    src="/profile-image.jpeg"
+                    src="/profile-image.png"
                     alt="Chandu Venna, DevOps & Cloud Engineer"
                     onError={() => setImgError(true)}
                     className="w-full h-full object-cover object-top"
